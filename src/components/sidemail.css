@@ -1,0 +1,42 @@
+.sidemail {
+  width: 400px;
+  height: calc(100vh - 50px);
+  border-right: 1px #e5e3e3 solid;
+}
+
+.sidemail-top {
+  background-color: #eff6fc;
+  width: calc(100vw - 200px);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.sidemail-top span {
+  margin: 0 15px;
+}
+
+.sidemail-container {
+  padding: 30px 0 0 30px;
+  position: relative;
+}
+
+.focused {
+  font-size: 1.5rem;
+  color: #2b76da;
+  text-decoration: underline;
+  margin-right: 15px;
+}
+
+.other {
+  font-size: 1.5rem;
+  color: #666666;
+}
+
+.filter {
+  position: absolute;
+  right: 30px;
+  color: #2b76da;
+  margin-top: 5px;
+}

@@ -1,0 +1,36 @@
+.sidebar {
+  min-width: 200px;
+  background-color: #f4f4f4;
+  height: calc(100vh - 50px);
+  border-right: 1px solid #e5e3e3;
+}
+
+.search {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.search input {
+  width: 100%;
+  height: 100%;
+  background-color: #deecfa;
+  border: none;
+  padding: 4px;
+}
+
+.folder h3 {
+  color: grey;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.sidebar-list {
+  list-style-type: none;
+}
+
+.sidebar-list li {
+  font-weight: normal;
+  margin: 5px;
+  padding: 5px;
+}

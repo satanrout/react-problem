@@ -1,0 +1,29 @@
+.preview-row {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.from {
+  color: #353535;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.subject {
+  color: #2b76da;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.content {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #8b8b8b;
+}
+
+.link {
+  text-decoration: none;
+}
